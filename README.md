@@ -47,6 +47,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+1st Screen - Product Description:
+the user to the first screen, which includes an interactive component (the "START" button) and a textual description of the product.
+You can structure this page using React components. To style it properly, use CSS.
+
+2nd Screen - Part Selection:
+
+When the user clicks the "START" button, navigate to the second screen.
+On this screen, display a horizontal scrollable list of all the product parts in card views. Each card should contain an image and the part name.
+Implement the selection mechanism using checkboxes or by highlighting selected parts. Allow users to select any number of parts.
+Use React state to manage the selected parts and update the UI accordingly.
+
+3rd Screen - Part Assembly:
+
+Upon selecting the parts on the second screen, navigate to the third screen.
+On this screen, create a drag-and-drop interface for assembling the selected parts.
+Display a vertical scrollable panel on the left side of the screen with the selected part images.
+Implement drag-and-drop functionality using libraries like react-dnd or native HTML5 drag-and-drop.
+Users can assemble the parts in any order they prefer. Keep track of the assembled parts in the component's state.
+
+4th Screen - Final Product:
+
+Once the user has assembled the parts, navigate to the fourth screen to show the final product view.
+Display the assembled product in the center of the screen.
+You can use CSS transitions to make the assembly process visually appealing.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
