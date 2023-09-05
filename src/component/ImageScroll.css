@@ -1,0 +1,25 @@
+/* ImageScroll.css */
+.image-scroll-container {
+    width: 100%; /* Set a fixed width if needed */
+    max-height: 500px; /* Set a fixed maximum height for the container */
+       border: 1px solid #ccc; /* Add a border or customize as needed */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .image-scroll-container img {
+    max-width: 500px; /* Ensure images don't overflow the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+    margin-bottom: 10px; /* Add margin between images */
+  }
+  #ff{
+    margin-left: 750px;
+    width: 80px;
+    height: 50px;
+    background-color: #3498db; /* Set the background color to a specific color (in this case, a shade of blue) */
+    color: #fff; /* Set the text color to white */
+    padding: 10px 20px; /* Add some padding to the button to make it visually appealing */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+
+  }

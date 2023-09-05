@@ -1,0 +1,116 @@
+#acd{
+    width:650px;
+   
+    margin-right: 30px;
+    border: 2px solid black;
+    height: auto;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-height: auto; /* Set a maximum height for vertical scrolling */
+  overflow-y: auto;
+
+}
+.myPart {
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+  }
+  
+  /* Add these styles to your CSS file */
+.scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent content from wrapping */
+ margin: 150px;
+ margin-bottom: 20px;
+  width: 650px;
+  align-content: center;
+  background: linear-gradient(skyblue,grey,violet);
+}
+
+.card {
+  display: inline-block; /* Display cards in a row */
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card img {
+  display: block; /* Ensure images don't have extra spacing */
+  margin: 0 auto; /* Center images horizontally */
+}
+.bb{
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  margin-left: 450px;
+}
+/* Add these styles to your CSS file */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 50px;
+  max-height: auto; /* Set a maximum height for vertical scrolling */
+  overflow-y: auto; /* Center align content horizontally */
+  
+}
+/*
+.scroll-container {
+  max-height: auto; /* Set a maximum height for vertical scrolling */
+  /*overflow-y: auto; /* Enable vertical scrolling */
+
+
+.center-button {
+  margin-top: 20px; /* Add spacing above the button */
+  text-align: center; /* Center align the button */
+}
+
+.bb1{
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+
+/*Drag */
+/* Add these styles to your CSS file */
+.drop-zone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dragging {
+  background-color: #f0f0f0;
+}
+
+.preview {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.preview img {
+  max-width: 100px;
+  max-height: 100px;
+}
+#abb{
+  align-items: right;
+}
