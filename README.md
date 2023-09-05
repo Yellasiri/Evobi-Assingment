@@ -72,6 +72,16 @@ Once the user has assembled the parts, navigate to the fourth screen to show the
 Display the assembled product in the center of the screen.
 You can use CSS transitions to make the assembly process visually appealing.
 
+OutPut Screens :
+
+![Screenshot (5)](https://github.com/Yellasiri/Evobi-Assingment/assets/94467751/93e59d0c-0b76-4594-bf79-30f43718de24)
+![Screenshot (6)](https://github.com/Yellasiri/Evobi-Assingment/assets/94467751/8be5bb47-5752-4658-a588-f51288c71d59)
+![Screenshot (7)](https://github.com/Yellasiri/Evobi-Assingment/assets/94467751/11032cbe-fbd2-4957-968a-9f826cbc3683)
+![Screenshot (8)](https://github.com/Yellasiri/Evobi-Assingment/assets/94467751/f56f32ba-0137-4550-b418-5a90d19786f6)
+![Screenshot (9)](https://github.com/Yellasiri/Evobi-Assingment/assets/94467751/0b43ea4c-c823-4c3b-908d-8adde68af035)
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
